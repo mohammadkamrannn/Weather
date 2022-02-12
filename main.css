@@ -1,0 +1,53 @@
+@font-face {
+    font-family: irYekan;
+    src: url(./assets/font/iranyekanwebregular.woff2);
+}
+body{
+    font-family: irYekan !important;
+    color: rgb(255, 255, 255);
+    background: url(./assets/images/johann-siemens.jpg);
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+#print{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list{
+    margin: 1rem;
+    text-align: center;
+    background:linear-gradient(to bottom, rgb(44, 135, 253), rgba(147, 185, 255, 0.918));
+    padding: .5rem 2rem;
+    border-radius: 10px;
+}
+.img{
+    display: inline-block;
+}
+.unit{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.city-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.city{
+    font-size: 2.3rem;
+    color: #fff;
+}
+.liner{
+    border-bottom: 2px solid #fff;
+}
+.desc{
+    font: 700;
+    color: rgb(53, 53, 53);
+}
+.temp_min{
+    color: rgb(0, 64, 201);
+}
+.temp_max{
+    color: rgb(173, 48, 48);
+}
