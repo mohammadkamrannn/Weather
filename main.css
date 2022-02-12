@@ -5,7 +5,8 @@
 body{
     font-family: irYekan !important;
     color: rgb(255, 255, 255);
-    background: url(./assets/images/johann-siemens.jpg);
+    /* background: url(./assets/images/johann-siemens.jpg); */
+    background-color: rgb(19, 87, 212);
 }
 .container{
     width: 1400px;
@@ -18,9 +19,10 @@ body{
 .list{
     margin: 1rem;
     text-align: center;
-    background:linear-gradient(to bottom, rgb(44, 135, 253), rgba(147, 185, 255, 0.918));
+    background:linear-gradient(to bottom, rgb(79, 155, 255), rgba(147, 185, 255, 0.582));
     padding: .5rem 2rem;
     border-radius: 10px;
+    border: 1px solid #fff;
 }
 .img{
     display: inline-block;
@@ -50,4 +52,11 @@ body{
 }
 .temp_max{
     color: rgb(173, 48, 48);
+}
+.mk a{
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
 }
