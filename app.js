@@ -148,7 +148,7 @@ loadJSON('GET', 'https://api.openweathermap.org/data/2.5/weather?id=118743&lang=
     };
     document.getElementById('print').innerHTML = html;
 });
-loadJSON('GET', 'https://api.openweathermap.org/data/2.5/weather?id=118743&lang=fa&units=metric&appid=fcdddefdcc6f10e733a28df96bdf64af', function(re) {
+loadJSON('GET', 'https://api.openweathermap.org/data/2.5/weather?id=111822&lang=fa&units=metric&appid=fcdddefdcc6f10e733a28df96bdf64af', function(re) {
     for(var i = 0; i < re.weather.length; i++) {
         html += 
             `<div class="list">
