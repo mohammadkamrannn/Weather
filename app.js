@@ -154,12 +154,10 @@ loadJSON('GET', 'https://api.openweathermap.org/data/2.5/weather?id=111822&lang=
             `<div class="list">
                 
                 <div class="city-img">
-                <p class="">
                     <img class="img" src="http://openweathermap.org/img/wn/${re.weather[i].icon}@2x.png">
-                </p>
-                <p class="city">
-                    ${re.name}
-                </p>
+                    <p class="city">
+                        ${re.name}
+                    </p>
                 </div>
                 <p class="unit">
                    ${re.main.temp} °C
